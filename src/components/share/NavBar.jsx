@@ -32,7 +32,7 @@ function NavBar() {
   </div>
   <div className="navbar-end">
     <a className="text-start bg-green-500 p-2 rounded-lg text-1xl hover:bg-green-800 mr-5">Button</a>
-    <button className='bg-black p-1 pr-4 pl-4 rounded-md text-1xl hover:bg-gray-900 outline shadow-2xl mr-5 flex items-center'><span className="mr-2"><FaWallet/> </span><span>Read more</span></button>
+    <button className='bg-black p-1 pr-4 pl-4 rounded-md text-1xl hover:bg-gray-900 outline shadow-2xl mr-5 flex items-center'><span className="mr-2"><FaWallet/></span><span>Read more</span></button>
   </div>
   <div className="dropdown dropdown-end text-gray-200 bg-slate-900">
       <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
