@@ -17,7 +17,7 @@ Perpetual Exchange</h1>
     </div>
   </div>
 </div>
-<div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+<div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-5'>
     <div className='flex items-center p-5 '>
         <div className='text-4xl mr-4'>
 <PiCirclesThreePlusLight className='text-blue-600'/>
@@ -46,6 +46,7 @@ Perpetual Exchange</h1>
         </div>
     </div>
 </div>
+
         </div>
     );
 };

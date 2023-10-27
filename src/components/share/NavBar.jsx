@@ -52,7 +52,7 @@ function NavBar() {
             <span className="">Setting</span>
           </a></li>
         <li><a className="justify-start">
-            <span className=""><GrLanguage/></span>
+            <span className="text-white"><GrLanguage/></span>
             <span className="">Language</span>
           </a></li>
       </ul>
