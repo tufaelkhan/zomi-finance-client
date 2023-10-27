@@ -7,10 +7,10 @@ function Tokens() {
         <h1 className="flex items-center font-bold mb-4"><span className="text-4xl">Tokens</span> <span className="text-2xl"><FaEthereum/> </span> </h1>
         <p className="text-gray-400 mb-5">Platform and $ZLP index tokens.</p>
         <div className="lg:flex">
-        <div className="pt-3 pb-3 border border-gray-300 mr-4 shadow-2xl rounded-lg md:w-1/2 h-52">
+        <div className="pt-3 pb-3 border border-gray-300 mr-4 shadow-2xl rounded-lg md:w-1/2 md:h-52">
             <div className="md:flex">
-     <div className="w-[60%]">
-     <div className="flex ml-4 mb-3">
+     <div className="md:w-[60%]">
+     <div className="md:flex ml-4 mb-3">
             <div>
                 <p><GiRaiseZombie className="text-3xl"/></p>
             </div>
@@ -42,10 +42,10 @@ function Tokens() {
             </div>
         </div>
         {/* zlp section */}
-        <div className="pt-3 pb-3 border border-gray-300 mr-4 shadow-2xl rounded-lg md:w-1/2 h-52">
+        <div className="pt-3 pb-3 border border-gray-300 mr-4 shadow-2xl rounded-lg md:w-1/2 md:h-52">
             <div className="md:flex">
-     <div className="w-[60%]">
-     <div className="flex ml-4 mb-3">
+     <div className="md:w-[60%]">
+     <div className="md:flex ml-4 mb-3">
             <div>
                 <p><GiRaiseZombie className="text-3xl"/></p>
             </div>
