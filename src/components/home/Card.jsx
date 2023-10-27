@@ -39,22 +39,22 @@ function Card() {
             <div>
             <p className='flex items-center text-3xl'><span className='mr-3'><FaArrowAltCircleRight/></span><span>$ZOMI</span></p>
         </div>
-        <p className='text-start'>$ZOMI is the utility and governance token. Accrues 30% of the platform's generated fees.</p>
+        <p className='text-start pb-5 pt-5'>$ZOMI is the utility and governance token. Accrues 30% of the platform's generated fees.</p>
         <p className='text-start'>Ethereum APR: 0.00%</p>
-        <div className=''>
-            <button className='mr-5'>Buy</button>
-            <button>Read more</button>
+        <div className='mt-5'>
+            <button className="text-start bg-green-500 p-2 pr-4 pl-4 rounded-md text-1xl hover:bg-green-800 mr-5">Buy</button>
+            <button className='bg-black p-1 pr-4 pl-4 rounded-md text-1xl hover:bg-gray-900 outline shadow-2xl'>Read more</button>
         </div>
             </div>
             <div className='p-6 border border-gray-300 mr-3 shadow-2xl rounded-2xl'>
             <div>
             <p className='flex items-center text-3xl'><span className='mr-3'><FaArrowAltCircleRight/></span><span>$ZLP</span></p>
         </div>
-        <p className='text-start'>$ZLP is the liquidity provider token. Accrues 70% of the platform's generated fees.</p>
+        <p className='text-start pb-5 pt-5'>$ZLP is the liquidity provider token. Accrues 70% of the platform's generated fees.</p>
         <p className='text-start'>Ethereum APR: 1,650,636,790.48%</p>
-        <div className='text-start'>
-            <button className='mr-5'>Buy</button>
-            <button className=''>Read more</button>
+        <div className='text-start mt-5'>
+            <button className="text-start bg-green-500 p-2 pr-4 pl-4 rounded-md text-1xl hover:bg-green-800 mr-5">Buy</button>
+            <button className='bg-black p-1 pr-4 pl-4 rounded-md text-1xl hover:bg-gray-900 outline shadow-2xl'>Read more</button>
         </div>
             </div>
         </div>
