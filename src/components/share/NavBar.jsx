@@ -1,9 +1,13 @@
+import { FaEthereum } from 'react-icons/fa';
+import { AiOutlineSetting} from 'react-icons/ai';
+import { GrLanguage} from 'react-icons/gr';
+import { Link } from 'react-router-dom';
 
 function NavBar() {
     const item = <>
-    <li><a>Home</a></li>
-    <li><a>Dashboard</a></li>
-    <li><a>Earn</a></li>
+    <li><Link to='/'>Home</Link></li>
+    <li><Link to='/dashboard'>Dashboard</Link></li>
+    <li><Link to='/earn'>Earn</Link></li>
     </>
     return (
         <div className="navbar -mt-10 bg-base-100">
@@ -16,7 +20,10 @@ function NavBar() {
         {item}
       </ul>
     </div>
-    <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+    <div>
+        <img src="" alt="" />
+    <a className="btn btn-ghost normal-case text-xl">Zomi Finance</a>
+    </div>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -32,16 +39,22 @@ function NavBar() {
           <img src="https://randomuser.me/api/portraits/men/1.jpg" />
         </div>
       </label>
-      <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+      <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-3xl">
       <li><a>Network</a></li>
         <li>
           <a className="justify-start">
-            <img src="https://images.unsplash.com/photo-1621501103258-3e135c8c1fda?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZXRoZXJldW18ZW58MHx8MHx8fDA%3D" alt="" className="rounded-full" style={{height:20}} />
+            <span className=""><FaEthereum/></span>
             <span className="">Ethereum</span>
           </a>
         </li>
-        <li><a>Settings</a></li>
-        <li><a>Logout</a></li>
+        <li><a className="justify-start">
+            <span className=""><AiOutlineSetting/></span>
+            <span className="">Setting</span>
+          </a></li>
+        <li><a className="justify-start">
+            <span className=""><GrLanguage/></span>
+            <span className="">Language</span>
+          </a></li>
       </ul>
     </div>
 </div>
