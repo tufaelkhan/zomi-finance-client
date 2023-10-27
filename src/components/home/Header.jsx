@@ -17,32 +17,32 @@ Perpetual Exchange</h1>
     </div>
   </div>
 </div>
-<div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-5'>
-    <div className='flex items-center p-5 '>
+<div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-5 p-4'>
+    <div className='flex items-center p-5 border border-gray-300 mr-3 shadow-2xl rounded-2xl'>
         <div className='text-4xl mr-4'>
 <PiCirclesThreePlusLight className='text-blue-600'/>
         </div>
         <div className="text-start">
-        <p className='text-2xl'>Total Trading Volume</p>
-        <p className='text-2xl'>$0</p>
+        <p className='text-2xl text-gray-300'>Total Trading Volume</p>
+        <p className='text-2xl font-bold'>$0</p>
         </div>
     </div>
-    <div className='flex items-center p-5 '>
+    <div className='flex items-center p-5 border border-gray-300 mr-3 shadow-2xl rounded-2xl'>
         <div className='text-4xl mr-4'>
 <MdOutlineFormatIndentIncrease className='text-blue-600'/>
         </div>
         <div className="text-start">
-        <p className='text-2xl'>Total Trading Volume</p>
-        <p className='text-2xl'>$0</p>
+        <p className='text-2xl text-gray-300'>Total Trading Volume</p>
+        <p className='text-2xl font-bold'>$0</p>
         </div>
     </div>
-    <div className='flex items-center p-5 '>
+    <div className='flex items-center p-5 border border-gray-300 mr-3 shadow-2xl rounded-2xl'>
         <div className='text-4xl mr-4'>
 <FaUserAlt className='text-blue-600'/>
         </div>
         <div className="text-start">
-        <p className='text-2xl'>Total Trading Volume</p>
-        <p className='text-2xl'>$0</p>
+        <p className='text-2xl text-gray-300'>Total Trading Volume</p>
+        <p className='text-2xl font-bold'>$0</p>
         </div>
     </div>
 </div>
