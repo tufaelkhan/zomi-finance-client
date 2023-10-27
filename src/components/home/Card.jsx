@@ -1,5 +1,5 @@
 
-function Footer() {
+function Card() {
     return (
         <div>
             
@@ -7,4 +7,4 @@ function Footer() {
     );
 };
 
-export default Footer;
+export default Card;
