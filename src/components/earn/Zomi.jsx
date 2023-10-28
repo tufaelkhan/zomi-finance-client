@@ -5,7 +5,7 @@ function Zomi() {
         <span className="text-4xl">Earn</span>{" "}
         <span className="text-2xl"></span>{" "}
       </h1>
-      <p className="text-gray-400">Stake $ZOMI and $ZLP to earn rewards.</p>
+      <p className="text-gray-400 mb-4">Stake $ZOMI and $ZLP to earn rewards.</p>
       <div className="md:flex">
         <div className="pt-3 pb-3 border border-gray-300 mr-4 shadow-2xl rounded-lg md:w-1/2">
           <h2 className="ml-3 font-semibold text-2xl mb-3">$ZOMI</h2>

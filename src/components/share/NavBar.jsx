@@ -22,7 +22,7 @@ function NavBar() {
     </div>
     <div>
         <img src="" alt="" />
-    <a className="btn btn-ghost normal-case text-xl">Zomi Finance</a>
+    <a className="btn btn-ghost normal-case text-xl">Romi Finance</a>
     </div>
   </div>
   <div className="navbar-center hidden lg:flex">
