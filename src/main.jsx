@@ -10,6 +10,7 @@ import Main from './components/Main.jsx';
 import Home from './components/home/Home.jsx';
 import Dashboard from './components/dashboard/Dashboard.jsx';
 import Earn from './components/earn/Earn.jsx';
+import { HelmetProvider } from 'react-helmet-async';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -33,8 +34,10 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <HelmetProvider>
     <div className='max-w-full bg-black text-gray-200'>
     <RouterProvider router={router} />
     </div>
+    </HelmetProvider>
   </React.StrictMode>,
 )
