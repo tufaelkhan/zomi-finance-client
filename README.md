@@ -11,3 +11,4 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 #### How to use
 #### Firstly, github clone this project and open folder in vs code. Then, terminal open and give command [npm i] all dependency installed.
+#### This project use vite react, tailwind css and daisy ui.
